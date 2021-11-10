@@ -37,6 +37,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     PixelCameraServicesSunfish
 
+# Prebuilt APKs/JARs from 'product/priv-app'
+PRODUCT_PACKAGES += \
+    HotwordEnrollmentOKGoogleRT5514P \
+    HotwordEnrollmentXGoogleRT5514P
+
 # Prebuilt APKs/JARs from 'system_ext/app'
 PRODUCT_PACKAGES += \
     QtiTelephonyService \
@@ -56,6 +61,7 @@ PRODUCT_PACKAGES += \
     ActivityExt \
     RadioConfigLib \
     audiosphere \
+    com.android.hotwordenrollment.common.util \
     com.google.android.camera.extensions \
     com.qti.media.secureprocessor \
     com.qualcomm.qti.imscmservice-V2.0-java \

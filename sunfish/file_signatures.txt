@@ -1,17 +1,22 @@
 d345d1f51b4264ac672f88a1024cd248a594906a  vendor/google_devices/sunfish/Android.bp
-0d8de72fd2c0debfd3442ec476ffda4b9fd32647  vendor/google_devices/sunfish/Android.mk
+cdba29835ab63c6a6c5d93aee70f0737e74927dc  vendor/google_devices/sunfish/Android.mk
 9463a2594700f60f1cea8ea28449f4f94232f9dc  vendor/google_devices/sunfish/AndroidBoardVendor.mk
 8d0a2bef7b242335f34da0b75dc51456f520416c  vendor/google_devices/sunfish/BoardConfigVendorPartial.mk
 86e88f9c2d8a0cb23ed46047dcdb0145c9a5ac2f  vendor/google_devices/sunfish/product/app/PixelCameraServicesSunfish/PixelCameraServicesSunfish.apk
 1c0805a2a2084fe878d0231a81538b3e15c15c82  vendor/google_devices/sunfish/product/etc/ambient/matcher_tah.leveldb
 032cedcdacc1e1fee4b30af9e2054fe0ae39f37d  vendor/google_devices/sunfish/product/etc/apns-conf.xml
+3feb727946e1a367d0f7eb77bd91b8b8d27aec38  vendor/google_devices/sunfish/product/etc/felica/common.cfg
+4cbcf716bd968c54d031831145a2821afbb67deb  vendor/google_devices/sunfish/product/etc/felica/mfm.cfg
+0adfe851cbe62db27c91bcf314bb708b64059af9  vendor/google_devices/sunfish/product/etc/felica/mfs.cfg
 f7a8e8d4a062c03046958b2f049ac4d34c19c30b  vendor/google_devices/sunfish/product/etc/firmware/music_detector.descriptor
 2855558503f00f2adafd289a7c288fff3ccd8c33  vendor/google_devices/sunfish/product/etc/firmware/music_detector.sound_model
 f34b67d05feedc89da0a90949eca0c1d405ef79b  vendor/google_devices/sunfish/product/lib/libdmengine.so
 83af17c2d7e086afd6e5fdad127f29bdc99e286b  vendor/google_devices/sunfish/product/lib/libdmjavaplugin.so
 e959646c04f6f21083d0e524b9b55d7f43502c64  vendor/google_devices/sunfish/product/lib64/libgdx.so
+4eab62fd24280b7f226f36b40c64ef217fe78ce3  vendor/google_devices/sunfish/product/priv-app/HotwordEnrollmentOKGoogleRT5514P/HotwordEnrollmentOKGoogleRT5514P.apk
+85b72c997d6f31de7f60d9b8c1f97e86595c2b7c  vendor/google_devices/sunfish/product/priv-app/HotwordEnrollmentXGoogleRT5514P/HotwordEnrollmentXGoogleRT5514P.apk
 f2361adc520ec9e327cbfa027dc02e9a4dbaaddc  vendor/google_devices/sunfish/proprietary/BoardConfigVendor.mk
-2a8601379e67950b5e3434d6623c50cf32e2fa4b  vendor/google_devices/sunfish/proprietary/device-vendor.mk
+0d29406f4103620f25de55bb3810b772c447f614  vendor/google_devices/sunfish/proprietary/device-vendor.mk
 93c6d797cc2acd2df61dacf49a22a97f5717aacc  vendor/google_devices/sunfish/radio/abl.img
 fa979517c34dcd0bb1f3c7b116b7a18177017d54  vendor/google_devices/sunfish/radio/aop.img
 7d98cf35cf7b69810922ab339f68c6a61e556c30  vendor/google_devices/sunfish/radio/bootloader.img
@@ -28,7 +33,7 @@ ef9746d5d42946fccd4d6a6d5b419ece250b86d3  vendor/google_devices/sunfish/radio/tz
 316beb26c497da1ab97327c7d3dba04dc22a222a  vendor/google_devices/sunfish/rro_overlays/CarrierConfigOverlay/Android.bp
 6d617b9436070a865d1c0b0060b23a63e9ec8c2a  vendor/google_devices/sunfish/rro_overlays/CarrierConfigOverlay/AndroidManifest.xml
 269febfbb921498a234a28c052fa77f5b07cb449  vendor/google_devices/sunfish/rro_overlays/CarrierConfigOverlay/res/xml/vendor.xml
-242fe4886e71cd1f16c6862f37eb89a13f8139f4  vendor/google_devices/sunfish/sunfish-vendor-blobs.mk
+81e1afbbad1295baf3362e97acc5e34085379f45  vendor/google_devices/sunfish/sunfish-vendor-blobs.mk
 3d28c737c17104a8f5fbc2535033655101607a83  vendor/google_devices/sunfish/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 67530680d4651bee888f2f1a1d50e58da9a49bd8  vendor/google_devices/sunfish/system_ext/app/atfwd/atfwd.apk
 a7a214ae313efe7c4aa8c6d4d0c93763c5829f92  vendor/google_devices/sunfish/system_ext/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk
@@ -40,6 +45,7 @@ ca94dd90c9658213b15c60d8b3cec87ccc7b0ee8  vendor/google_devices/sunfish/system_e
 3ce262333f63be15507f6be131056c56be2672c9  vendor/google_devices/sunfish/system_ext/etc/init/tcmd.rc
 83cf4df067bc14c78f31943f32bcaf6f32419125  vendor/google_devices/sunfish/system_ext/etc/perf/wlc_model.tflite
 015ad7be4921039238bfa3d34d052d752453e49c  vendor/google_devices/sunfish/system_ext/etc/permissions/audiosphere.xml
+563a58554d9c0dd0608552b644fbf74519a447bb  vendor/google_devices/sunfish/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 71a685e5e8d9e55fbb2fc78301536799e0581410  vendor/google_devices/sunfish/system_ext/etc/permissions/com.google.android.camera.extensions.xml
 233f4f01302ed0d89067cbd25624fae045930c79  vendor/google_devices/sunfish/system_ext/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml
 7fd113f92bf1f27042d60f94e07fdd987621f501  vendor/google_devices/sunfish/system_ext/etc/permissions/com.qualcomm.qmapbridge.xml
@@ -49,6 +55,7 @@ e19eb93097be452c88155b401fad1278675f656d  vendor/google_devices/sunfish/system_e
 5322f31201ffb8ab62d141beb24bc880c7aed8c8  vendor/google_devices/sunfish/system_ext/etc/permissions/com.qualcomm.qti.izattools.xml
 e7dddfa669a19e5f300641f695f563fdf22897c0  vendor/google_devices/sunfish/system_ext/etc/permissions/izat.xt.srv.xml
 43e2605637a95b0817f290fd229f7979f9c5c27a  vendor/google_devices/sunfish/system_ext/etc/permissions/org_codeaurora_ims.xml
+a7722efef429da8d3ea314723da26e3375f56854  vendor/google_devices/sunfish/system_ext/etc/permissions/privapp-permissions-google-se.xml
 30397e293b2c40e6b7a1d11c2a615cdd05de625a  vendor/google_devices/sunfish/system_ext/etc/permissions/qcrilhook.xml
 3b687e0ed64784e02508f85c0be9e74b3f52559a  vendor/google_devices/sunfish/system_ext/etc/permissions/qti_telephony_hidl_wrapper.xml
 94c95bd091e47c772f7d505d8f7e54b9f99da149  vendor/google_devices/sunfish/system_ext/etc/permissions/qti_telephony_utils.xml
@@ -75,6 +82,7 @@ b1988666f18c0d1b8ef8955763a1a7d7c89092a0  vendor/google_devices/sunfish/system_e
 bc79f024ffd02a8731091c3783932a4e999af9dc  vendor/google_devices/sunfish/system_ext/framework/ActivityExt.jar
 838069d06890a18cccbaeb0426b026c9309e7d26  vendor/google_devices/sunfish/system_ext/framework/RadioConfigLib.jar
 744d8e0c8c5d2e0d0a97266f68585cb1cc7672e5  vendor/google_devices/sunfish/system_ext/framework/audiosphere.jar
+c764b636e0be426a66be09dd08ab9c1921327ef0  vendor/google_devices/sunfish/system_ext/framework/com.android.hotwordenrollment.common.util.jar
 40ca662e9ed0264eacbc7185552a0cc77ff4700a  vendor/google_devices/sunfish/system_ext/framework/com.google.android.camera.extensions.jar
 f05006a9bab2e486bf9f9b98bed1bdf90224a0cf  vendor/google_devices/sunfish/system_ext/framework/com.qti.media.secureprocessor.jar
 33f9e0fd98d6475808a9eedf64268c20b40fd35c  vendor/google_devices/sunfish/system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar
