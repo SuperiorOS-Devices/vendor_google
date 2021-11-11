@@ -11,10 +11,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     hardware/google/pixel-sepolicy/confirmationui_hal \
     hardware/google/pixel-sepolicy/googlebattery
 
-# Runtime Resource overlays
-PRODUCT_PACKAGES += \
-    CarrierConfigOverlay
-
 # Prebuilt APKs/JARs from 'vendor/app'
 PRODUCT_PACKAGES += \
     CACertService \
@@ -39,6 +35,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'product/priv-app'
 PRODUCT_PACKAGES += \
+    CarrierSettings \
     HotwordEnrollmentOKGoogleRT5514P \
     HotwordEnrollmentXGoogleRT5514P
 
