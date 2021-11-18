@@ -31,13 +31,39 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'product/app'
 PRODUCT_PACKAGES += \
-    PixelCameraServicesSunfish
+    SSRestartDetector \
+    Tycho \
+    VZWAPNLib
 
 # Prebuilt APKs/JARs from 'product/priv-app'
 PRODUCT_PACKAGES += \
+    AmbientSensePrebuilt \
+    AppDirectedSMSService \
+    CarrierLocation \
+    CarrierServices \
     CarrierSettings \
+    CarrierWifi \
+    ConnMO \
+    DCMO \
+    DMService \
+    DiagMon \
+    EuiccGoogle \
+    GCS \
+    HardwareInfo \
     HotwordEnrollmentOKGoogleRT5514P \
-    HotwordEnrollmentXGoogleRT5514P
+    HotwordEnrollmentXGoogleRT5514P \
+    OemDmTrigger \
+    SCONE \
+    SprintDM \
+    SprintHM \
+    TetheringEntitlement \
+    USCCDM \
+    WfcActivation
+
+# Prebuilt APKs libs symlinks from 'product/priv-app'
+PRODUCT_PACKAGES += \
+    libdmengine_32.so \
+    libdmjavaplugin_32.so
 
 # Prebuilt APKs/JARs from 'system_ext/app'
 PRODUCT_PACKAGES += \
@@ -71,6 +97,7 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants-V1.0-java \
     com.quicinc.cne.constants-V2.0-java \
     com.quicinc.cne.constants-V2.1-java \
+    google-ril \
     izat.xt.srv \
     qcrilhook \
     qmapbridge \
@@ -106,7 +133,17 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'system_ext/priv-app'
 PRODUCT_PACKAGES += \
+    CarrierSetup \
+    EuiccSupportPixel \
+    EuiccSupportPixelPermissions \
+    HbmSVManager \
+    LLKAgent \
+    MyVerizonServices \
+    OBDM_Permissions \
+    RilConfigService \
+    grilservice \
     ims \
+    obdm_stub \
     qcrilmsgtunnel
 
 # Prebuilt APKs libs symlinks from 'system_ext/priv-app'
