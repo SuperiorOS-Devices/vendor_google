@@ -1,6 +1,7 @@
 # Auto-generated file, do not edit
 
-$(call inherit-product, vendor/google_devices/sunfish/sunfish-vendor-blobs.mk)
+VENDOR_DEVICE := sunfish
+$(call inherit-product, vendor/google_devices/$(VENDOR_DEVICE)/$(VENDOR_DEVICE)-vendor-blobs.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true \
@@ -31,9 +32,14 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'product/app'
 PRODUCT_PACKAGES += \
+    PixelCameraServicesSunfish \
     SSRestartDetector \
     Tycho \
     VZWAPNLib
+
+# Prebuilt APKs/JARs from 'product/framework'
+PRODUCT_PACKAGES += \
+    libhwinfo
 
 # Prebuilt APKs/JARs from 'product/priv-app'
 PRODUCT_PACKAGES += \
@@ -140,6 +146,7 @@ PRODUCT_PACKAGES += \
     LLKAgent \
     MyVerizonServices \
     OBDM_Permissions \
+    PixelNfc \
     RilConfigService \
     grilservice \
     ims \

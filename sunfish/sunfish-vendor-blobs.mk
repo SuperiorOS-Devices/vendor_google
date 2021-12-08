@@ -151,6 +151,10 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/sunfish/product/etc/permissions/com.verizon.apn.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.verizon.apn.xml:google \
     vendor/google_devices/sunfish/product/etc/permissions/com.verizon.services.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.verizon.services.xml:google \
     vendor/google_devices/sunfish/product/etc/permissions/features-verizon.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/features-verizon.xml:google \
+    vendor/google_devices/sunfish/product/etc/res/images/charger/battery_fail.png:$(TARGET_COPY_OUT_PRODUCT)/etc/res/images/charger/battery_fail.png:google \
+    vendor/google_devices/sunfish/product/etc/res/images/charger/battery_scale.png:$(TARGET_COPY_OUT_PRODUCT)/etc/res/images/charger/battery_scale.png:google \
+    vendor/google_devices/sunfish/product/etc/res/images/charger/main_font.png:$(TARGET_COPY_OUT_PRODUCT)/etc/res/images/charger/main_font.png:google \
+    vendor/google_devices/sunfish/product/etc/res/values/charger/animation.txt:$(TARGET_COPY_OUT_PRODUCT)/etc/res/values/charger/animation.txt:google \
     vendor/google_devices/sunfish/product/etc/security/fsverity/play_store_fsi_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/play_store_fsi_cert.der:google \
     vendor/google_devices/sunfish/product/etc/sysconfig/allowlist_com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.android.omadm.service.xml:google \
     vendor/google_devices/sunfish/product/etc/sysconfig/google-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-hiddenapi-package-whitelist.xml:google \
@@ -189,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/sunfish/system_ext/etc/permissions/qti_telephony_utils.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_telephony_utils.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/permissions/uimremoteclient.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/uimremoteclient.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/permissions/uimremoteserver.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/uimremoteserver.xml:google \
+    vendor/google_devices/sunfish/system_ext/etc/permissions/vzw_mvs_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vzw_mvs_permissions.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/qvr/cfg/339/0/65536/mtp855.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/qvr/cfg/339/0/65536/mtp855.txt:google \
     vendor/google_devices/sunfish/system_ext/etc/qvr/cfg/339/0/65536/mtp855_6dof_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/qvr/cfg/339/0/65536/mtp855_6dof_config.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/qvr/cfg/341/2/65536/svr845.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/qvr/cfg/341/2/65536/svr845.txt:google \
@@ -929,6 +934,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/sunfish/vendor/etc/thermal-engine-sunfish.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sunfish.conf:google \
     vendor/google_devices/sunfish/vendor/etc/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json:google \
     vendor/google_devices/sunfish/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml:google \
+    vendor/google_devices/sunfish/vendor/etc/vintf/manifest/android.hardware.confirmationui@1.0-service-google.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.confirmationui@1.0-service-google.xml:google \
     vendor/google_devices/sunfish/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml:google \
     vendor/google_devices/sunfish/vendor/etc/vintf/manifest/android.hardware.identity.strongbox.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.identity.strongbox.xml:google \
     vendor/google_devices/sunfish/vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service.citadel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.keymaster@4.1-service.citadel.xml:google \
