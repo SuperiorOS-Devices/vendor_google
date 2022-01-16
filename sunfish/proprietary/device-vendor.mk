@@ -1,7 +1,6 @@
 # Auto-generated file, do not edit
 
-VENDOR_DEVICE := sunfish
-$(call inherit-product, vendor/google_devices/$(VENDOR_DEVICE)/$(VENDOR_DEVICE)-vendor-blobs.mk)
+$(call inherit-product, vendor/google_devices/sunfish/sunfish-vendor-blobs.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true \
