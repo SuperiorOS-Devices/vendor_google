@@ -141,7 +141,6 @@ PRODUCT_PACKAGES += \
     CarrierSetup \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
-    HbmSVManager \
     LLKAgent \
     MyVerizonServices \
     OBDM_Permissions \

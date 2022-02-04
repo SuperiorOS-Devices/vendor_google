@@ -566,7 +566,6 @@ c9b24f499b9cec6ea4b013c9014724e8e413e9bd  vendor/google_devices/sunfish/system_e
 f61d285bfd4b1aefc8ddb43e24ebd7618ca187f5  vendor/google_devices/sunfish/system_ext/priv-app/CarrierSetup/CarrierSetup.apk
 c924602a68f4f4b3b7c06106d5adf2dcc138dc54  vendor/google_devices/sunfish/system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk
 1ddcc429dd1f9d91b273b142950b43f676b34b91  vendor/google_devices/sunfish/system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk
-2bba91d296d9048fd8fb7b31a113cd101a752dea  vendor/google_devices/sunfish/system_ext/priv-app/HbmSVManager/HbmSVManager.apk
 7d399db3d683b9ff0132ea3e27f26058d83cc1a9  vendor/google_devices/sunfish/system_ext/priv-app/LLKAgent/LLKAgent.apk
 fe9eefdc3ab2b2bbf894b291317d37b294d9cb91  vendor/google_devices/sunfish/system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk
 1bcf4e873aac78bd62434f6aa67082011f0d627f  vendor/google_devices/sunfish/system_ext/priv-app/OBDM_Permissions/OBDM_Permissions.apk
