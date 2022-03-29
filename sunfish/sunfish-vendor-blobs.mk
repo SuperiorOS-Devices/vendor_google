@@ -1337,6 +1337,8 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/sunfish/vendor/lib/libmaxxaudioqdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmaxxaudioqdsp.so:google \
     vendor/google_devices/sunfish/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so:google \
     vendor/google_devices/sunfish/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so:google \
+    vendor/google_devices/sunfish/vendor/lib/libmediautils_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediautils_vendor.so:google \
+    vendor/google_devices/sunfish/vendor/lib/libmemunreachable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemunreachable.so:google \
     vendor/google_devices/sunfish/vendor/lib/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminkdescriptor.so:google \
     vendor/google_devices/sunfish/vendor/lib/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminksocket.so:google \
     vendor/google_devices/sunfish/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so:google \
