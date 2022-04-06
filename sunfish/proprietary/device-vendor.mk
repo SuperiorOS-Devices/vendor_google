@@ -1,6 +1,7 @@
 # Auto-generated file, do not edit
 
-$(call inherit-product, vendor/google_devices/sunfish/sunfish-vendor-blobs.mk)
+VENDOR_DEVICE := sunfish
+$(call inherit-product, vendor/google_devices/$(VENDOR_DEVICE)/$(VENDOR_DEVICE)-vendor-blobs.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true \
@@ -13,13 +14,13 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 
 # Prebuilt APKs/JARs from 'vendor/app'
 PRODUCT_PACKAGES += \
+    adreno_graphics_driver \
     CACertService \
     CneApp \
-    IWlanService \
-    TimeService \
-    adreno_graphics_driver \
     com.qualcomm.qti.gpudrivers.sm6150.api30 \
-    gpu_profiling_vulkan_layer
+    gpu_profiling_vulkan_layer \
+    IWlanService \
+    TimeService
 
 # Prebuilt APKs libs symlinks from 'vendor/app'
 PRODUCT_PACKAGES += \
@@ -50,8 +51,8 @@ PRODUCT_PACKAGES += \
     CarrierWifi \
     ConnMO \
     DCMO \
-    DMService \
     DiagMon \
+    DMService \
     EuiccGoogle \
     GCS \
     HardwareInfo \
@@ -72,10 +73,10 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'system_ext/app'
 PRODUCT_PACKAGES += \
-    QtiTelephonyService \
     atfwd \
     com.qualcomm.qti.services.secureui \
     datastatusnotification \
+    QtiTelephonyService \
     uceShimService \
     uimremoteclient \
     uimremoteserver
@@ -87,7 +88,6 @@ PRODUCT_PACKAGES += \
 # Prebuilt APKs/JARs from 'system_ext/framework'
 PRODUCT_PACKAGES += \
     ActivityExt \
-    RadioConfigLib \
     audiosphere \
     com.android.hotwordenrollment.common.util \
     com.google.android.camera.extensions \
@@ -108,6 +108,7 @@ PRODUCT_PACKAGES += \
     qmapbridge \
     qti-telephony-hidl-wrapper \
     qti-telephony-utils \
+    RadioConfigLib \
     uimremoteclientlibrary \
     uimremoteserverlibrary \
     vendor.qti.data.factory-V1.0-java \
@@ -141,15 +142,15 @@ PRODUCT_PACKAGES += \
     CarrierSetup \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
+    grilservice \
+    ims \
     LLKAgent \
     MyVerizonServices \
     OBDM_Permissions \
-    PixelNfc \
-    RilConfigService \
-    grilservice \
-    ims \
     obdm_stub \
-    qcrilmsgtunnel
+    PixelNfc \
+    qcrilmsgtunnel \
+    RilConfigService
 
 # Prebuilt APKs libs symlinks from 'system_ext/priv-app'
 PRODUCT_PACKAGES += \
