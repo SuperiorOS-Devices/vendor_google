@@ -14,13 +14,13 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 
 # Prebuilt APKs/JARs from 'vendor/app'
 PRODUCT_PACKAGES += \
-    adreno_graphics_driver \
     CACertService \
     CneApp \
-    com.qualcomm.qti.gpudrivers.sm6150.api30 \
-    gpu_profiling_vulkan_layer \
     IWlanService \
-    TimeService
+    TimeService \
+    adreno_graphics_driver \
+    com.qualcomm.qti.gpudrivers.sm6150.api30 \
+    gpu_profiling_vulkan_layer
 
 # Prebuilt APKs libs symlinks from 'vendor/app'
 PRODUCT_PACKAGES += \
@@ -51,8 +51,8 @@ PRODUCT_PACKAGES += \
     CarrierWifi \
     ConnMO \
     DCMO \
-    DiagMon \
     DMService \
+    DiagMon \
     EuiccGoogle \
     GCS \
     HardwareInfo \
@@ -73,10 +73,10 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'system_ext/app'
 PRODUCT_PACKAGES += \
+    QtiTelephonyService \
     atfwd \
     com.qualcomm.qti.services.secureui \
     datastatusnotification \
-    QtiTelephonyService \
     uceShimService \
     uimremoteclient \
     uimremoteserver
@@ -88,6 +88,7 @@ PRODUCT_PACKAGES += \
 # Prebuilt APKs/JARs from 'system_ext/framework'
 PRODUCT_PACKAGES += \
     ActivityExt \
+    RadioConfigLib \
     audiosphere \
     com.android.hotwordenrollment.common.util \
     com.google.android.camera.extensions \
@@ -108,7 +109,6 @@ PRODUCT_PACKAGES += \
     qmapbridge \
     qti-telephony-hidl-wrapper \
     qti-telephony-utils \
-    RadioConfigLib \
     uimremoteclientlibrary \
     uimremoteserverlibrary \
     vendor.qti.data.factory-V1.0-java \
@@ -142,15 +142,15 @@ PRODUCT_PACKAGES += \
     CarrierSetup \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
-    grilservice \
-    ims \
     LLKAgent \
     MyVerizonServices \
     OBDM_Permissions \
-    obdm_stub \
     PixelNfc \
-    qcrilmsgtunnel \
-    RilConfigService
+    RilConfigService \
+    grilservice \
+    ims \
+    obdm_stub \
+    qcrilmsgtunnel
 
 # Prebuilt APKs libs symlinks from 'system_ext/priv-app'
 PRODUCT_PACKAGES += \
