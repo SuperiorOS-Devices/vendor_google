@@ -145,7 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/sunfish/product/etc/permissions/com.android.sdm.plugins.diagmon.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.diagmon.xml:google \
     vendor/google_devices/sunfish/product/etc/permissions/com.android.sdm.plugins.sprintdm.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.sprintdm.xml:google \
     vendor/google_devices/sunfish/product/etc/permissions/com.android.sdm.plugins.usccdm.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.usccdm.xml:google \
-    vendor/google_devices/sunfish/product/etc/permissions/com.customermobile.preload.vzw.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.customermobile.preload.vzw.xml:google \
     vendor/google_devices/sunfish/product/etc/permissions/com.google.android.hardwareinfo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.hardwareinfo.xml:google \
     vendor/google_devices/sunfish/product/etc/permissions/com.google.omadm.trigger.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.omadm.trigger.xml:google \
     vendor/google_devices/sunfish/product/etc/permissions/com.verizon.apn.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.verizon.apn.xml:google \
@@ -183,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/sunfish/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/permissions/com.qualcomm.qti.izattools.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.izattools.xml:google \
-    vendor/google_devices/sunfish/system_ext/etc/permissions/com.verizon.llkagent.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.verizon.llkagent.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/permissions/google-ril.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/google-ril.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/izat.xt.srv.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/permissions/obdm_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/obdm_permissions.xml:google \
@@ -730,9 +728,11 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/sunfish/vendor/etc/crus_sp_cal_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/crus_sp_cal_mixer_paths.xml:google \
     vendor/google_devices/sunfish/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml:google \
     vendor/google_devices/sunfish/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml:google \
+    vendor/google_devices/sunfish/vendor/etc/default-permissions/default-permissions_talkback.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/default-permissions_talkback.xml:google \
     vendor/google_devices/sunfish/vendor/etc/default_snd.mps:$(TARGET_COPY_OUT_VENDOR)/etc/default_snd.mps:google \
     vendor/google_devices/sunfish/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml:google \
     vendor/google_devices/sunfish/vendor/etc/displayconfig/display_id_4630946475097398401.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946475097398401.xml:google \
+    vendor/google_devices/sunfish/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf:google \
     vendor/google_devices/sunfish/vendor/etc/fstab.persist:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.persist:google \
     vendor/google_devices/sunfish/vendor/etc/fstab.sm7150:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.sm7150:google \
     vendor/google_devices/sunfish/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf:google \

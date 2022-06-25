@@ -142,7 +142,6 @@ PRODUCT_PACKAGES += \
     CarrierSetup \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
-    LLKAgent \
     MyVerizonServices \
     OBDM_Permissions \
     PixelNfc \
